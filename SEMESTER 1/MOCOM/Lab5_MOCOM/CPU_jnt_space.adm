@@ -1,0 +1,974 @@
+ADAMS/View model name: lwr
+!
+!-------------------------------- SYSTEM UNITS ---------------------------------
+!
+UNITS/
+, FORCE = NEWTON
+, MASS = KILOGRAM
+, LENGTH = METER
+, TIME = SECOND
+!
+!---------------------- STATEMENTS FROM ORIGINAL DATASET -----------------------
+!
+!                             adams_view_name='base'
+PART/2
+, GROUND
+!
+!                             adams_view_name='MAR5'
+MARKER/5
+, PART = 2
+!
+!                              adams_view_name='cm'
+MARKER/36
+, PART = 2
+!
+!                          adams_view_name='MARKER_40'
+MARKER/40
+, PART = 2
+!
+!                          adams_view_name='MARKER_42'
+MARKER/42
+, PART = 2
+!
+!                          adams_view_name='MARKER_56'
+MARKER/56
+, PART = 2
+!
+!                          adams_view_name='MARKER_70'
+MARKER/70
+, PART = 2
+!
+!                              adams_view_name='A1'
+PART/3
+, MASS = 2.687002077
+, CM = 37
+, IM = 7
+, IP = 0.0388305543, 0.0371587284, 0.0064997741, -1.909844823E-06
+, 1.09868814E-06, -0.0019376898
+!
+!                             adams_view_name='MAR7'
+MARKER/7
+, PART = 3
+!
+!                              adams_view_name='cm'
+MARKER/37
+, PART = 3
+, QP = -5.10394667E-05, 0.0233251438, -0.0851481019
+, REULER = 0.170205272D, 165.8636798D, 269.825101D
+!
+!                          adams_view_name='MARKER_39'
+MARKER/39
+, PART = 3
+!
+!                          adams_view_name='MARKER_41'
+MARKER/41
+, PART = 3
+!
+!                          adams_view_name='MARKER_44'
+MARKER/44
+, PART = 3
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_55'
+MARKER/55
+, PART = 3
+!
+!                          adams_view_name='MARKER_58'
+MARKER/58
+, PART = 3
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_69'
+MARKER/69
+, PART = 3
+!
+!                          adams_view_name='MARKER_72'
+MARKER/72
+, PART = 3
+, REULER = 0D, 90.00000001D, 0D
+!
+!                              adams_view_name='A2'
+PART/4
+, MASS = 2.687002854
+, CM = 1
+, IM = 9
+, IP = 0.0356537056, 0.0067674749, 0.0337147772, -7.719426853E-07
+, 1.105327586E-06, 0.0023652766
+!
+!                              adams_view_name='cm'
+MARKER/1
+, PART = 4
+, QP = 0, -0.025273, 0.078752
+, REULER = 0D, 90.00000001D, 0D
+!
+!                             adams_view_name='MAR9'
+MARKER/9
+, PART = 4
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_43'
+MARKER/43
+, PART = 4
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_46'
+MARKER/46
+, PART = 4
+, QP = 0, 0, 0.4
+!
+!                          adams_view_name='MARKER_57'
+MARKER/57
+, PART = 4
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_60'
+MARKER/60
+, PART = 4
+, QP = 0, 0, 0.4
+!
+!                          adams_view_name='MARKER_71'
+MARKER/71
+, PART = 4
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_74'
+MARKER/74
+, PART = 4
+, QP = 0, 0, 0.4
+!
+!                              adams_view_name='E1'
+PART/5
+, MASS = 2.687009069
+, CM = 38
+, IM = 10
+, IP = 0.0401021511, 0.0380387161, 0.0067863204, -3.09191156E-08
+, -1.572918957E-07, 0.002522474
+!
+!                            adams_view_name='MAR10'
+MARKER/10
+, PART = 5
+, QP = 0, 0, 0.4
+!
+!                              adams_view_name='cm'
+MARKER/38
+, PART = 5
+, QP = 2.370543488E-07, -0.0259139393, 0.3121966761
+, REULER = 179.9984746D, 164.9003779D, 90.00178117D
+!
+!                          adams_view_name='MARKER_45'
+MARKER/45
+, PART = 5
+, QP = 0, 0, 0.4
+!
+!                          adams_view_name='MARKER_48'
+MARKER/48
+, PART = 5
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_59'
+MARKER/59
+, PART = 5
+, QP = 0, 0, 0.4
+!
+!                          adams_view_name='MARKER_62'
+MARKER/62
+, PART = 5
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_73'
+MARKER/73
+, PART = 5
+, QP = 0, 0, 0.4
+!
+!                          adams_view_name='MARKER_76'
+MARKER/76
+, PART = 5
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                              adams_view_name='A3'
+PART/6
+, MASS = 2.687002854
+, CM = 11
+, IM = 12
+, IP = 0.0353929597, 0.0065067289, 0.0337147772, -7.719565852E-07
+, -1.122073911E-06, -0.0019418013
+!
+!                              adams_view_name='cm'
+MARKER/11
+, PART = 6
+, QP = 0, 0.023273, 0.478752
+, REULER = 180D, 90.00000001D, 180D
+!
+!                            adams_view_name='MAR12'
+MARKER/12
+, PART = 6
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_47'
+MARKER/47
+, PART = 6
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_50'
+MARKER/50
+, PART = 6
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_61'
+MARKER/61
+, PART = 6
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_64'
+MARKER/64
+, PART = 6
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_75'
+MARKER/75
+, PART = 6
+, QP = 0, 0, 0.4
+, REULER = 180D, 90.00000001D, 180D
+!
+!                          adams_view_name='MARKER_78'
+MARKER/78
+, PART = 6
+, QP = 0, 0, 0.79
+!
+!                              adams_view_name='A4'
+PART/7
+, MASS = 1.798003887
+, CM = 13
+, IM = 16
+, IP = 0.0320961188, 0.0305167072, 0.004763466, 9.711915964E-08
+, -1.490678132E-07, -0.0013595485
+!
+!                              adams_view_name='cm'
+MARKER/13
+, PART = 7
+, QP = 0, 0.021556, 0.680669
+!
+!                            adams_view_name='MAR16'
+MARKER/16
+, PART = 7
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_49'
+MARKER/49
+, PART = 7
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_52'
+MARKER/52
+, PART = 7
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_63'
+MARKER/63
+, PART = 7
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_66'
+MARKER/66
+, PART = 7
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_77'
+MARKER/77
+, PART = 7
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_80'
+MARKER/80
+, PART = 7
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                              adams_view_name='A5'
+PART/8
+, MASS = 1.741003896
+, CM = 14
+, IM = 17
+, IP = 0.0035027431, 0.003771367, 0.0034749439, -1.397871752E-07, 6.97040578E-08
+, 9.114663756E-06
+!
+!                              adams_view_name='cm'
+MARKER/14
+, PART = 8
+, QP = 0, -0.004018, 0.787047
+, REULER = 0D, 90.00000001D, 0D
+!
+!                            adams_view_name='MAR17'
+MARKER/17
+, PART = 8
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_51'
+MARKER/51
+, PART = 8
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_54'
+MARKER/54
+, PART = 8
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_65'
+MARKER/65
+, PART = 8
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_68'
+MARKER/68
+, PART = 8
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_79'
+MARKER/79
+, PART = 8
+, QP = 0, 0, 0.79
+, REULER = 0D, 90.00000001D, 0D
+!
+!                          adams_view_name='MARKER_82'
+MARKER/82
+, PART = 8
+, QP = 0, 0, 0.79
+!
+!                              adams_view_name='A6'
+PART/9
+, MASS = 0.1270005409
+, CM = 15
+, IM = 19
+, IP = 5.399765311E-04, 5.399567373E-04, 8.182922917E-05, 6.93823724E-09
+, 9.888288263E-09, 3.923881127E-06
+!
+!                              adams_view_name='cm'
+MARKER/15
+, PART = 9
+, QP = 1.204336054E-06, 4.970408849E-04, 0.8521882524
+, REULER = 294.9201973D, 89.99933572D, 90.00298209D
+!
+!                            adams_view_name='MAR19'
+MARKER/19
+, PART = 9
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_53'
+MARKER/53
+, PART = 9
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_67'
+MARKER/67
+, PART = 9
+, QP = 0, 0, 0.79
+!
+!                          adams_view_name='MARKER_81'
+MARKER/81
+, PART = 9
+, QP = 0, 0, 0.79
+!
+!                   adams_view_name='SFORCE_1_force_graphic_1'
+GRAPHICS/51
+, FORCE
+, ETYPE = SFORCE
+, EID = 1
+, EMARKER = 55
+!
+!                  adams_view_name='SFORCE_1_2_force_graphic_1'
+GRAPHICS/52
+, FORCE
+, ETYPE = SFORCE
+, EID = 2
+, EMARKER = 57
+!
+!                  adams_view_name='SFORCE_1_2_force_graphic_2'
+GRAPHICS/53
+, FORCE
+, ETYPE = SFORCE
+, EID = 3
+, EMARKER = 59
+!
+!                  adams_view_name='SFORCE_1_2_force_graphic_3'
+GRAPHICS/54
+, FORCE
+, ETYPE = SFORCE
+, EID = 4
+, EMARKER = 61
+!
+!                  adams_view_name='SFORCE_1_2_force_graphic_4'
+GRAPHICS/55
+, FORCE
+, ETYPE = SFORCE
+, EID = 5
+, EMARKER = 63
+!
+!                  adams_view_name='SFORCE_1_3_force_graphic_1'
+GRAPHICS/56
+, FORCE
+, ETYPE = SFORCE
+, EID = 6
+, EMARKER = 65
+!
+!                  adams_view_name='SFORCE_1_2_force_graphic_5'
+GRAPHICS/57
+, FORCE
+, ETYPE = SFORCE
+, EID = 7
+, EMARKER = 67
+!
+!                           adams_view_name='JOINT_A1'
+JOINT/1
+, REVOLUTE
+, I = 41
+, J = 42
+!
+!                           adams_view_name='JOINT_A2'
+JOINT/2
+, REVOLUTE
+, I = 43
+, J = 44
+!
+!                           adams_view_name='JOINT_E1'
+JOINT/3
+, REVOLUTE
+, I = 45
+, J = 46
+!
+!                           adams_view_name='JOINT_A3'
+JOINT/4
+, REVOLUTE
+, I = 47
+, J = 48
+!
+!                           adams_view_name='JOINT_A4'
+JOINT/5
+, REVOLUTE
+, I = 49
+, J = 50
+!
+!                           adams_view_name='JOINT_A5'
+JOINT/6
+, REVOLUTE
+, I = 51
+, J = 52
+!
+!                           adams_view_name='JOINT_A6'
+JOINT/7
+, REVOLUTE
+, I = 53
+, J = 54
+!
+!MOTION/1
+!, ROTATIONAL
+!, JOINT = 1
+!, FUNCTION = VARVAL(2)
+!MOTION/2
+!, ROTATIONAL
+!, JOINT = 2
+!, FUNCTION = VARVAL(4)
+!MOTION/3
+!, ROTATIONAL
+!, JOINT = 3
+!, FUNCTION = VARVAL(5)
+!MOTION/4
+!, ROTATIONAL
+!, JOINT = 4
+!, FUNCTION = VARVAL(6)
+!MOTION/5
+!, ROTATIONAL
+!, JOINT = 5
+!, FUNCTION = VARVAL(7)
+!MOTION/6
+!, ROTATIONAL
+!, JOINT = 6
+!, FUNCTION = VARVAL(8)
+!MOTION/7
+!, ROTATIONAL
+!, JOINT = 7
+!, FUNCTION = VARVAL(9)
+!                           adams_view_name='SFORCE_1'
+SFORCE/1
+, ROTATIONAL
+, I = 55
+, J = 56
+, FUNCTION = VARVAL(2)
+!
+!                           adams_view_name='SFORCE_2'
+SFORCE/2
+, ROTATIONAL
+, I = 57
+, J = 58
+, FUNCTION = VARVAL(4)
+!
+!                           adams_view_name='SFORCE_3'
+SFORCE/3
+, ROTATIONAL
+, I = 59
+, J = 60
+, FUNCTION = VARVAL(5)
+!
+!                           adams_view_name='SFORCE_4'
+SFORCE/4
+, ROTATIONAL
+, I = 61
+, J = 62
+, FUNCTION = VARVAL(6)
+!
+!                           adams_view_name='SFORCE_5'
+SFORCE/5
+, ROTATIONAL
+, I = 63
+, J = 64
+, FUNCTION = VARVAL(7)
+!
+!                           adams_view_name='SFORCE_6'
+SFORCE/6
+, ROTATIONAL
+, I = 65
+, J = 66
+, FUNCTION = VARVAL(8)
+!
+!                           adams_view_name='SFORCE_7'
+SFORCE/7
+, ROTATIONAL
+, I = 67
+, J = 68
+, FUNCTION = VARVAL(9)
+!
+!SFORCE/8
+!, ROTATIONAL
+!, I = 69
+!, J = 70
+!, FUNCTION = .1
+!SFORCE/9
+!, ROTATIONAL
+!, I = 71
+!, J = 72
+!, FUNCTION = .1
+!SFORCE/10
+!, ROTATIONAL
+!, I = 73
+!, J = 74
+!, FUNCTION = .1
+!SFORCE/11
+!, ROTATIONAL
+!, I = 75
+!, J = 76
+!, FUNCTION = VARVAL(6)
+!SFORCE/12
+!, ROTATIONAL
+!, I = 77
+!, J = 78
+!, FUNCTION = .1
+!SFORCE/13
+!, ROTATIONAL
+!, I = 79
+!, J = 80
+!, FUNCTION = .1
+!SFORCE/14
+!, ROTATIONAL
+!, I = 81
+!, J = 82
+!, FUNCTION = .1
+!                              adams_view_name='q1'
+VARIABLE/1
+, IC = 0
+, FUNCTION = AZ(41,42)
+!
+!                              adams_view_name='w1'
+VARIABLE/2
+, IC = 0
+, FUNCTION = 0
+!
+!                             adams_view_name='qd1'
+VARIABLE/3
+, IC = 0
+, FUNCTION = WZ(39, 40, 40)
+!
+!                              adams_view_name='w2'
+VARIABLE/4
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='w3'
+VARIABLE/5
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='w4'
+VARIABLE/6
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='w5'
+VARIABLE/7
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='w6'
+VARIABLE/8
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='w7'
+VARIABLE/9
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='q2'
+VARIABLE/10
+, IC = 0
+, FUNCTION = AZ(43,44)
+!
+!                              adams_view_name='q3'
+VARIABLE/11
+, IC = 0
+, FUNCTION = AZ(45,46)
+!
+!                              adams_view_name='q4'
+VARIABLE/12
+, IC = 0
+, FUNCTION = AZ(47,48)
+!
+!                              adams_view_name='q5'
+VARIABLE/13
+, IC = 0
+, FUNCTION = AZ(49,50)
+!
+!                              adams_view_name='q6'
+VARIABLE/14
+, IC = 0
+, FUNCTION = AZ(51,52)
+!
+!                              adams_view_name='q7'
+VARIABLE/15
+, IC = 0
+, FUNCTION = AZ(53,54)
+!
+!                             adams_view_name='qd2'
+VARIABLE/16
+, IC = 0
+, FUNCTION = WZ(43, 44, 44)
+!
+!                             adams_view_name='qd3'
+VARIABLE/17
+, IC = 0
+, FUNCTION = WZ(45, 46, 46)
+!
+!                             adams_view_name='qd4'
+VARIABLE/18
+, IC = 0
+, FUNCTION = WZ(47, 48, 48)
+!
+!                             adams_view_name='qd5'
+VARIABLE/19
+, IC = 0
+, FUNCTION = WZ(49, 50, 50)
+!
+!                             adams_view_name='qd6'
+VARIABLE/20
+, IC = 0
+, FUNCTION = WZ(51, 52, 52)
+!
+!                             adams_view_name='qd7'
+VARIABLE/21
+, IC = 0
+, FUNCTION = WZ(53, 54, 54)
+!
+!                 adams_view_name='Controls_Plant_1.ctrl_pinput'
+PINPUT/1
+, VARIABLES = 2
+!
+!                 adams_view_name='Controls_Plant_2.ctrl_pinput'
+PINPUT/2
+, VARIABLES = 2
+!
+!                            adams_view_name='PINPUT'
+PINPUT/3
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_3.ctrl_pinput'
+PINPUT/4
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_4.ctrl_pinput'
+PINPUT/5
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_5.ctrl_pinput'
+PINPUT/6
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_6.ctrl_pinput'
+PINPUT/7
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_7.ctrl_pinput'
+PINPUT/8
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_8.ctrl_pinput'
+PINPUT/9
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                 adams_view_name='Controls_Plant_9.ctrl_pinput'
+PINPUT/10
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_10.ctrl_pinput'
+PINPUT/11
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_11.ctrl_pinput'
+PINPUT/12
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_12.ctrl_pinput'
+PINPUT/13
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_13.ctrl_pinput'
+PINPUT/14
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_14.ctrl_pinput'
+PINPUT/15
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_15.ctrl_pinput'
+PINPUT/16
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_16.ctrl_pinput'
+PINPUT/17
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_17.ctrl_pinput'
+PINPUT/18
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_18.ctrl_pinput'
+PINPUT/19
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_19.ctrl_pinput'
+PINPUT/20
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_20.ctrl_pinput'
+PINPUT/21
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_21.ctrl_pinput'
+PINPUT/22
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_22.ctrl_pinput'
+PINPUT/23
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_23.ctrl_pinput'
+PINPUT/24
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_24.ctrl_pinput'
+PINPUT/25
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_25.ctrl_pinput'
+PINPUT/26
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_26.ctrl_pinput'
+PINPUT/27
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_27.ctrl_pinput'
+PINPUT/28
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_28.ctrl_pinput'
+PINPUT/29
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_29.ctrl_pinput'
+PINPUT/30
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                  adams_view_name='CPU_jnt_space.ctrl_pinput'
+PINPUT/31
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_30.ctrl_pinput'
+PINPUT/32
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_31.ctrl_pinput'
+PINPUT/33
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_1.ctrl_poutput'
+POUTPUT/1
+, VARIABLES = 1, 3
+!
+!                adams_view_name='Controls_Plant_2.ctrl_poutput'
+POUTPUT/2
+, VARIABLES = 1, 3
+!
+!                           adams_view_name='POUTPUT'
+POUTPUT/3
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_3.ctrl_poutput'
+POUTPUT/4
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_4.ctrl_poutput'
+POUTPUT/5
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_5.ctrl_poutput'
+POUTPUT/6
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_6.ctrl_poutput'
+POUTPUT/7
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_7.ctrl_poutput'
+POUTPUT/8
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_8.ctrl_poutput'
+POUTPUT/9
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_9.ctrl_poutput'
+POUTPUT/10
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_10.ctrl_poutput'
+POUTPUT/11
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_11.ctrl_poutput'
+POUTPUT/12
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_12.ctrl_poutput'
+POUTPUT/13
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_13.ctrl_poutput'
+POUTPUT/14
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_14.ctrl_poutput'
+POUTPUT/15
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_15.ctrl_poutput'
+POUTPUT/16
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_16.ctrl_poutput'
+POUTPUT/17
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_17.ctrl_poutput'
+POUTPUT/18
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_18.ctrl_poutput'
+POUTPUT/19
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_19.ctrl_poutput'
+POUTPUT/20
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_20.ctrl_poutput'
+POUTPUT/21
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_21.ctrl_poutput'
+POUTPUT/22
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_22.ctrl_poutput'
+POUTPUT/23
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_23.ctrl_poutput'
+POUTPUT/24
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_24.ctrl_poutput'
+POUTPUT/25
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_25.ctrl_poutput'
+POUTPUT/26
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_26.ctrl_poutput'
+POUTPUT/27
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_27.ctrl_poutput'
+POUTPUT/28
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_28.ctrl_poutput'
+POUTPUT/29
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_29.ctrl_poutput'
+POUTPUT/30
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                  adams_view_name='CPU_jnt_space.ctrl_poutput'
+POUTPUT/31
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_30.ctrl_poutput'
+POUTPUT/32
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+!                adams_view_name='Controls_Plant_31.ctrl_poutput'
+POUTPUT/33
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+ACCGRAV/
+, KGRAV = -9.80665
+!
+OUTPUT/
+, REQSAVE
+, GRSAVE
+!
+RESULTS/
+, XRF
+!
+!------------------------------- NEW STATEMENTS --------------------------------
+!
+!                adams_view_name='Controls_Plant_32.ctrl_pinput'
+PINPUT/34
+, VARIABLES = 2, 4, 5, 6, 7, 8, 9
+!
+!                adams_view_name='Controls_Plant_32.ctrl_poutput'
+POUTPUT/34
+, VARIABLES = 1, 10, 11, 12, 13, 14, 15, 3, 16, 17, 18, 19, 20, 21
+!
+END

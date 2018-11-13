@@ -1,0 +1,18 @@
+function j = J(q)
+
+q1 = q(1) ;
+q2 = q(2) ;
+q3 = q(3) ;
+q4 = q(4) ;
+q5 = q(5) ;
+q6 = q(6) ;
+q7 = q(7) ;
+
+j = [-0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) + 0.39*sin(q1)*sin(q2)*cos(q4) + 0.4*sin(q1)*sin(q2), -(0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4) + 0.4*cos(q2))*cos(q1), -(0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - 0.39*sin(q1)*sin(q2)*cos(q4))*cos(q2) - (0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4))*sin(q1)*sin(q2), (0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - 0.39*sin(q1)*sin(q2)*cos(q4))*sin(q2)*sin(q3) + (-sin(q1)*sin(q3)*cos(q2) + cos(q1)*cos(q3))*(0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4)), 0, 0, 0;
+0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4) - 0.4*sin(q2)*cos(q1), -(0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4) + 0.4*cos(q2))*sin(q1), (0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4))*cos(q2) + (0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4))*sin(q2)*cos(q1), -(0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4))*sin(q2)*sin(q3) - (-sin(q1)*cos(q3) - sin(q3)*cos(q1)*cos(q2))*(0.39*sin(q2)*sin(q4)*cos(q3) + 0.39*cos(q2)*cos(q4)), 0, 0, 0;
+0, (0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4) - 0.4*sin(q2)*cos(q1))*cos(q1) + (0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - 0.39*sin(q1)*sin(q2)*cos(q4) - 0.4*sin(q1)*sin(q2))*sin(q1), (0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4))*sin(q1)*sin(q2) - (0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - 0.39*sin(q1)*sin(q2)*cos(q4))*sin(q2)*cos(q1), -(0.39*(-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - 0.39*sin(q2)*cos(q1)*cos(q4))*(-sin(q1)*sin(q3)*cos(q2) + cos(q1)*cos(q3)) + (0.39*(sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - 0.39*sin(q1)*sin(q2)*cos(q4))*(-sin(q1)*cos(q3) - sin(q3)*cos(q1)*cos(q2)), 0, 0, 0;
+0, sin(q1), -sin(q2)*cos(q1), -sin(q1)*cos(q3) - sin(q3)*cos(q1)*cos(q2), (-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - sin(q2)*cos(q1)*cos(q4), ((-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*cos(q4) + sin(q2)*sin(q4)*cos(q1))*sin(q5) - (-sin(q1)*cos(q3) - sin(q3)*cos(q1)*cos(q2))*cos(q5), -(((-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*cos(q4) + sin(q2)*sin(q4)*cos(q1))*cos(q5) + (-sin(q1)*cos(q3) - sin(q3)*cos(q1)*cos(q2))*sin(q5))*sin(q6) + ((-sin(q1)*sin(q3) + cos(q1)*cos(q2)*cos(q3))*sin(q4) - sin(q2)*cos(q1)*cos(q4))*cos(q6);
+0, -cos(q1), -sin(q1)*sin(q2), -sin(q1)*sin(q3)*cos(q2) + cos(q1)*cos(q3), (sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - sin(q1)*sin(q2)*cos(q4), ((sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*cos(q4) + sin(q1)*sin(q2)*sin(q4))*sin(q5) - (-sin(q1)*sin(q3)*cos(q2) + cos(q1)*cos(q3))*cos(q5), -(((sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*cos(q4) + sin(q1)*sin(q2)*sin(q4))*cos(q5) + (-sin(q1)*sin(q3)*cos(q2) + cos(q1)*cos(q3))*sin(q5))*sin(q6) + ((sin(q1)*cos(q2)*cos(q3) + sin(q3)*cos(q1))*sin(q4) - sin(q1)*sin(q2)*cos(q4))*cos(q6);
+1, 0, cos(q2), -sin(q2)*sin(q3), sin(q2)*sin(q4)*cos(q3) + cos(q2)*cos(q4), (sin(q2)*cos(q3)*cos(q4) - sin(q4)*cos(q2))*sin(q5) + sin(q2)*sin(q3)*cos(q5), -((sin(q2)*cos(q3)*cos(q4) - sin(q4)*cos(q2))*cos(q5) - sin(q2)*sin(q3)*sin(q5))*sin(q6) + (sin(q2)*sin(q4)*cos(q3) + cos(q2)*cos(q4))*cos(q6)] ;
+
+end

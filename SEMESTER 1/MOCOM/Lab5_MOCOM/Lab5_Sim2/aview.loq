@@ -1,0 +1,42 @@
+! Adams View Adams 2017.2 Student Edition (built Jul 12 2017)
+! Graphics:  OpenGL
+! Enter a command, '?', or 'help'.
+! WARNING:  The function expression indicated contains at least one error.
+! WARNING:  Function owner: .CPU_jnt_space.q1
+! WARNING:   
+! WARNING:  Description   : The object referenced is not in the model.
+! WARNING:   
+! WARNING:  Function text : "AZ(.CPU_jnt_space.A1.MARKER_41,.CPU_jnt_space.base.MARKER_42[[)]]"
+! WARNING:                  (The element at or immediately after the error is
+! WARNING:                   enclosed in double brackets '[[' and ']]'.)
+! WARNING:   
+! WARNING:  The function expression indicated contains at least one error.
+! WARNING:  Function owner: .CPU_jnt_space.qd1
+! WARNING:   
+! WARNING:  Description   : The object referenced is not in the model.
+! WARNING:   
+! WARNING:  Function text : "WZ(.CPU_jnt_space.A1.MARKER_39, .CPU_jnt_space.base.MARKER_40[[,]] .CPU_jnt_space.base.MARKER_40)"
+! WARNING:                  (The element at or immediately after the error is
+! WARNING:                   enclosed in double brackets '[[' and ']]'.)
+! WARNING:   
+model display model=.CPU_jnt_space view=all
+! >> model display model=.CPU_jnt_space view=all
+! VERIFY MODEL: .CPU_jnt_space
+! 
+!    7 Gruebler Count (approximate degrees of freedom)
+!    7 Moving Parts (not including ground)
+!    7 Revolute Joints
+! 
+! ERROR:  Illegal function expression on CPU_jnt_space.q1.  Error message follows:
+! 
+! While processing expression: AZ(.CPU_jnt_space.A1.MARKER_41,.CPU_jnt_space.base.MARKER_42)
+! ERROR: Expecting at least 1 marker arguments, only 0 were found
+! ERROR: AZ(.CPU_JNT_SPACE.A1.MARKER_41,.C
+! ERROR:    ^                                                           
+! 
+! ERROR:  Model did not pass verification phase.
+! Errors were encountered when computing the DOF and redundant constraints.
+! 
+
+! EXCEPTION DETECTED 
+!	Adams has stopped working and exported diagnostic information to C:\Users\Ragesh\Documents\MOCM\Lab5_MOCOM\Lab5_Sim2\SCAKernel-20171126-143831-3944-5024.dmp (.dmp file)

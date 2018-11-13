@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ecn_calib" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\visp\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="calib">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/libcalib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 calib" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="calib/fast">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/libcalib.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 calib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="calibration">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/calibration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 calibration" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="calibration/fast">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/calibration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 calibration/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="record">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/record" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 record" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="record/fast">
+         <Option output="/user/eleves/gkregulan2017/project/ecn_calib-master-build/record" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/user/eleves/gkregulan2017/project/ecn_calib-master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 record/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/user/eleves/gkregulan2017/project/ecn_calib-master-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/user/eleves/gkregulan2017/project/ecn_calib-master-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/cb_tracker.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/distortion_camera.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/generic_camera.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/grid_tracker.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/perspective_camera.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/include/vvs.h">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/main/calibration.cpp">
+         <Option target="calibration"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/main/record.cpp">
+         <Option target="record"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/src/cb_tracker.cpp">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/src/grid_tracker.cpp">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/src/vvs.cpp">
+         <Option target="calib"/>
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/../../../../../opt/ros/kinetic/lib/x86_64-linux-gnu/cmake/visp/VISPConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\visp\" />
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/../../../../../opt/ros/kinetic/lib/x86_64-linux-gnu/cmake/visp/VISPConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\visp\" />
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/../../../../../opt/ros/kinetic/lib/x86_64-linux-gnu/cmake/visp/VISPModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\visp\" />
+      </Unit>
+      <Unit filename="/user/eleves/gkregulan2017/project/ecn_calib-master/../../../../../opt/ros/kinetic/lib/x86_64-linux-gnu/cmake/visp/VISPModules-none.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\lib\x86_64-linux-gnu\cmake\visp\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

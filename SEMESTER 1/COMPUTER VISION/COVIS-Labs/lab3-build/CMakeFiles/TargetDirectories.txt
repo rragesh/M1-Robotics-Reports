@@ -1,0 +1,3 @@
+/user/eleves/gkregulan2017/projects/lab3-build/CMakeFiles/rebuild_cache.dir
+/user/eleves/gkregulan2017/projects/lab3-build/CMakeFiles/edit_cache.dir
+/user/eleves/gkregulan2017/projects/lab3-build/CMakeFiles/main.dir

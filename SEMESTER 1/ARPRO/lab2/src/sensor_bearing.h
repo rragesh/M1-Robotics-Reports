@@ -1,0 +1,7 @@
+#ifndef SENSOR_BEARING_H
+#define SENSOR_BEARING_H
+
+
+
+#endif // SENSOR_BEARING_H
+

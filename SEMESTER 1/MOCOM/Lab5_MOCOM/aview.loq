@@ -1,0 +1,18 @@
+! Adams/View Adams 2014 (built Aug 26 2014)
+! Graphics:  OpenGL
+! Using software OpenGL overlay plane emulation
+! Enter a command, '?', or 'help'.
+model display model=.lwr view=all
+! >> model display model=.lwr view=all
+view manage orient view=iso up_axis=(.MDI.up_axis) forward_axis=(.MDI.forward_axis)
+view manage modify render=solid
+view manage orient view=iso up_axis=(.MDI.up_axis) forward_axis=(.MDI.forward_axis)
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! MODIFY View Zoom
+undo begin
+default coordinate_system default_coordinate_system=.lwr
+view zoom view=.gui.main.front zoom=0.1900905193
+undo end
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

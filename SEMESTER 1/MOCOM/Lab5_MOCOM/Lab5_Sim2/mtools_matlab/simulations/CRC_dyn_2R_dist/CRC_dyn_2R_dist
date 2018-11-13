@@ -1,0 +1,8 @@
+%% CRC Dyn with 2R robot and distance sensor
+
+
+%% Robot definition
+
+clear b
+d = .1 ;
+b(1) = mBody(0, [0 0 0 0], 'm', .1, 'cg', d/2, 
